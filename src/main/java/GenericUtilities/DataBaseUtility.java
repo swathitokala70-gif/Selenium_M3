@@ -22,7 +22,7 @@ public class DataBaseUtility {
 	public Connection connectToDatabase() throws SQLException {
 		Driver dobj = new Driver();
 		DriverManager.registerDriver(dobj);
-		con = DriverManager.getConnection("jdbc:mysql://localhost:3306/advproject", "root", "root");
+		con = DriverManager.getConnection("jdbc:mysql://localhost:3306/project", "root", "root");
 		return con;
 	}
 

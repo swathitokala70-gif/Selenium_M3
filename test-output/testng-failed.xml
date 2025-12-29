@@ -3,19 +3,19 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="contactModule.ContactScenariosTest">
+      <class name="contactModule.CreateContactTest">
         <methods>
-          <include name="createConTest"/>
           <include name="logout"/>
           <include name="connectToDatabase"/>
           <include name="quitTheBrowser"/>
           <include name="login"/>
           <include name="closeParallelExe"/>
           <include name="disconnectWithDatabase"/>
-          <include name="configParallelExe"/>
           <include name="launchTheBrowser"/>
+          <include name="createConTest"/>
+          <include name="configParallelExe"/>
         </methods>
-      </class> <!-- contactModule.ContactScenariosTest -->
+      </class> <!-- contactModule.CreateContactTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
